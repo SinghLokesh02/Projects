@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background-color: #415e9b;
+    height: 82px;
+    border-bottom: 1px solid #133783;
+
+}
+
+.header-block {
+    width: 992px;
+    margin: 0 auto;
+    display: flex;
+    position: inherit;
+}
+
+.logo {
+    color: white;
+    font-size: 40px;
+    padding-bottom: 20px; 
+    float: left;
+}
+
+.login {
+    width: 50%;
+    color:white;
+    margin-left: 50vw;
+    position: relative;
+    float: right;  
+}
+ 
+
+ 

@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+}
+.container1 {
+  background-color: skyblue;
+  height: 768px;
+  width: 50%;
+}
+
+.container2 {
+  width: 50%;
+  height: 768px;
+  background-color: white;
+}
+.container2 nav {
+  margin: 10px 26px;
+}
+
+.container1 nav ul li {
+  margin: 62px 23px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.text1 {
+  width: 250px;
+  height: 35px;
+  margin: auto 10px;
+}
+.text2 {
+  height: 35px;
+  width: 250px;
+  margin: auto 10px;
+}
+.button {
+  height: 40px;
+  width: 70px;
+  border-radius: 25px;
+  color: skyblue;
+  border: 2px solid skyblue;
+  background-color: white;
+  font-weight: bolder;
+}
+.main {
+  /* background-color: red; */
+  display: block;
+  justify-content: flex-start;
+  margin: 250px 150px;
+}
+.mai {
+  margin: 20px;
+}
+.signUp {
+  height: 29px;
+  width: 363px;
+  margin-top: 7px;
+  background-color: rgb(73, 200, 251);
+  font-weight: bolder;
+  color: white;
+  border: 2px solid rgb(73, 200, 251);
+  border-radius: 25px;
+}
+.login {
+  height: 29px;
+  border: 2px solid rgb(73, 200, 251);
+  font-weight: bolder;
+  width: 363px;
+  color: rgb(73, 200, 251);
+  margin-top: 7px;
+  border-radius: 25px;
+  background-color: white;
+}
+.img {
+  height: 30px;
+}

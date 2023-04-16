@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  display: flex;
+  justify-content: center; 
+  background-size:100%;
+}
+#time {
+  font-weight: bolder;
+  font-size: 4.2em;
+  background: linear-gradient(
+    45deg,
+    rgb(235, 68, 68),
+    rgb(62, 240, 62),
+    rgb(51, 51, 241)
+  );  
+   margin: 0;
+   padding:5vh;
+}
+.timer{
+     
+    position: relative;
+    align-items: center;
+    vertical-align: middle;
+    margin-top: 47vh;
+}
+
+#ms {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
