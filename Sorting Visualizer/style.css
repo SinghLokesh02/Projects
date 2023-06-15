@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    background-color: rgb(218, 75, 28);
+}
+#container{
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+}
+.bar{
+    width:10px;
+    background-color: black;
+    margin: 1px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+.heading{
+    margin: 5vh auto;
+}
+#btn1{
+    margin-right: 3vh;
+}
+#btn2{
+    margin-left: 3vh;
+}
